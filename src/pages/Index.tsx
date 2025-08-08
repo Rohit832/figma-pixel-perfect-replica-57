@@ -1,12 +1,13 @@
-import { TrustedOrganizations } from "@/components/TrustedOrganizations";
+// Update this page (the content is just a fallback if you fail to update the page)
 
 const Index = () => {
   return (
-    <main className="min-h-screen bg-white">
-      <div className="w-full py-16 max-md:py-12 max-sm:py-8">
-        <TrustedOrganizations />
+    <div className="min-h-screen flex items-center justify-center bg-background">
+      <div className="text-center">
+        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
+        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
       </div>
-    </main>
+    </div>
   );
 };
 
